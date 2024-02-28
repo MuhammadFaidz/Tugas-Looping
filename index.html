@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Lia Inspect lalu Console!!!</h3>
+    <script>
+      //for gabung if else
+      for (let a = 1; a <= 10; a++) {
+        if (a % 2 == 0) {
+          console.log(`${a}Genap`);
+        } else {
+          console.log(`${a}Ganjil`);
+        }
+      }
+      //while gabung if else
+      let b = 1;
+      while (b <= 10) {
+        if (b % 2 == 0) {
+          console.log(`${b}genap`);
+          b++;
+        } else {
+          console.log(`${b}ganjil`);
+          b++;
+        }
+      }
+      //Do while gabung if else
+      let c = 1;
+      do {
+        if (c <= 10) {
+          console.log(`${c}genap`);
+          c++;
+        } else {
+          console.log(`${c}ganjil`);
+          c++;
+        }
+      } while (c <= 10);
+
+      //Faktorial for
+      let angka = prompt(`masukan no`);
+      let f = 1;
+      for (let i = 1; i <= angka; i++) {
+        f *= i;
+      }
+      console.log(`Faktorial dari ${angka} adalah ${f}`);
+
+      //   //Faktorial while
+      let number = prompt(`masukan no`);
+      let fac = 1;
+      let y = 1;
+      while (y <= number) {
+        fac *= y;
+        y++;
+      }
+      console.log(`Faktorial dari ${number} adalah ${fac}`);
+
+      //Faktorial Do while
+      let go = prompt(`masukan no`);
+      let fak = 1;
+      let it = 1;
+      do {
+        fak *= it;
+        it++;
+      } while (it <= go);
+      console.log(`Faktorial dari ${go} adalah ${fak}`);
+    </script>
+  </body>
+</html>
